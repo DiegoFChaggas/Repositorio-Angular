@@ -5,16 +5,16 @@ import { IExperiences } from '../../interface/IExperiences.interfaces';
   standalone: true,
   imports: [],
   templateUrl: './experiences.component.html',
-  styleUrl: './experiences.component.scss'
+  styleUrl: './experiences.component.scss',
 })
 export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
-      summary:{
-        strong: "Estagiário Fullstack",
-        p:"Unimed Maceió | Jul 2023"
+      summary: {
+        strong: 'Estagiário Fullstack',
+        p: 'Unimed Maceió | Jul 2023',
       },
-      text: "Contratado peço período de 1 ano, atuei como estagiário de desenvolvimento web, adquirindo um vasto conhecimento em PHP, Html5, CSS3, Javascript, Angular, Typescript, PL/SQL "
-    }
-  ])
+      text: 'Contratado pelo período de 1 ano, atuei como estagiário de desenvolvimento web, adquirindo um vasto conhecimento em PHP, Html5, CSS3, Javascript, Angular, Typescript, PL/SQL ',
+    },
+  ]);
 }
