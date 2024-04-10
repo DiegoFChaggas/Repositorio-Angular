@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { IProjects } from './IProjects.interfaces';
+import { IProjects } from '../../interface/IProjects.interfaces';
 
 @Component({
   selector: 'app-projects',
@@ -18,8 +18,8 @@ export class ProjectsComponent {
     height: '51px',
     description: 'Meu primeiro projeto envolvento programação web a partir do curso da Rocketseat',
     links:[{
-      name: 'Conheça o meu primeiro projeto',
       href: 'https://diegofchaggas.github.io/Project-Rocketseat/',
+      name: 'Conheça o meu primeiro projeto',
     }],
     }
   ])
